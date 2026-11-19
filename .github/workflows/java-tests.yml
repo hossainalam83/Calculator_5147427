@@ -1,8 +1,9 @@
-name: Java Tests
+name: Quiz 3 - 5147427
 
 on:
   push:                            # run on every push
   pull_request:                    # and on every pull request
+  workflow_dispatch:               # adds a "Run workflow" button
 
 jobs:
   test:
